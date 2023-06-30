@@ -14,7 +14,7 @@ export const LoginController = (app)=> {
         console.log('req.body', req.body)
         if(req.body?.username === UserName && req.body?.password === Password){
             console.log('logged successfully')
-            res.redirect(`http://localhost:${PORT}/`)
+            res.redirect(`https://canel-gmap.onrender.com`)
         }else{
             console.log('error')
         }
