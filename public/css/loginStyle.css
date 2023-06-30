@@ -1,0 +1,46 @@
+body {
+  background-color: #0e25d8;
+  color: white;
+  font-size: 17px;
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+body > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-size: 2em;
+}
+
+.comp{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px 25px;
+    transition: all ease 300ms;
+    color: #0e25d8;
+    border: none;
+    margin: 15px;
+}
+
+button:hover{
+    background-color: #0e25d8;
+    color: white;
+    border: 1px solid white;
+}
+
+input{
+    border-radius: 5px;
+    height: 30px;
+}
