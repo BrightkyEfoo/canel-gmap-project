@@ -16,7 +16,7 @@ export const HomeRouter = app => {
             <title>home</title>
         </head>
         <body>
-            <h2>Welcome</h2>
+            <h2 style="text-align:center;">WELCOME</h2>
             <div>
                 <div id="map">
                     <iframe
@@ -30,6 +30,11 @@ export const HomeRouter = app => {
 
                     src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=${pos.lat},%20${pos.long}+(yo)&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                     ></iframe>
+                </div>
+                <div>
+                    <h4 style="text-align:center;">REALISE PAR: </h4>
+                    <p style="text-align:center;">BOYOMO BOYOMO Abraham</p>
+                    <p style="text-align:center;">TCHEUNTCHOUA NDE Junior Carnel</p>
                 </div>
             </div>
         </body>
